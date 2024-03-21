@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color:#F7D039; 
+    --bgcolor : #212121;
+    --text-white : #fff;
+}
+.white-theme {
+    --bgcolor : #fff;
+    --text-white : #000;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e7e7e7;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var(--bgcolor);
+}
+.content {
+    padding-top: 33px;
+    padding-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Profile {
+    display: flex;
+    gap:40px;
+    align-items: center;
+    margin-top: 65px;
+}
+.pro-pic {
+    background-color: var(--primary-color);
+    border-radius:50% ;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pro-pic img {
+    border-radius: 50%;
+    border: 7px white solid;
+}
+.pro-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: var(--text-white);
+}
+.fact {
+    width: 148px;
+    text-align: center;
+}
+.facts {
+    display: flex;
+
+    color: var(--text-white);
+
+}
+.font24 {
+    font-size: 24px;
+}
+.font22 {
+    font-size: 22px;
+}
+.cv {
+    background-color: #FBD144;
+    display: flex;
+    gap: 15px;
+    padding: 24px 42px;
+    border-radius: 10px;
+    
+}
+.contact {
+    background-color:white ;
+    display: flex;
+    gap: 15px;
+    padding: 24px 81px;
+    border-radius: 10px;
+    background-color: var(--dark);
+    color: var(--text-white);
+}
+.profile-buttons {
+    display: flex;
+    margin-top: 48px;
+    gap: 38px;
+}
+.detailInfo {
+    background-color: white;
+    border-radius: 20px;
+    padding:15px 24px ;
+    display: flex;
+}
+.portfolio {
+    background-color: #D7D7D7;
+    padding: 24px 0px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Skills {
+    background-color: white;
+    padding: 24px 0px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+}
+.pic {
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+}
+#theme {
+    cursor: pointer;
+}
